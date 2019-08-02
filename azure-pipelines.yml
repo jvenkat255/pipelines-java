@@ -22,7 +22,7 @@ steps:
     goals: 'package'
 - task: SonarQubePrepare@4
   inputs:
-    SonarQube: 'sonarqube'
+    SonarQube: 'azuresonarqube'
     scannerMode: 'Other'
 - task: Maven@3
   inputs:
