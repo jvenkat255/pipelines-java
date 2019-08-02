@@ -37,3 +37,7 @@ steps:
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
 
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
+
